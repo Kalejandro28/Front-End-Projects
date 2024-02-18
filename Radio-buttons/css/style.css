@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 480px;
+    margin: 150px auto 0 auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #222222;
+    color: #aaaaaa;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-size: 1.3em;
+    font-weight: 3px;
+}
