@@ -12,10 +12,40 @@ body{
 }
 
 ul{
-    list-style-type: none;
+    list-style: none;
+    /*border: 1px solid white;*/
+    padding: 0 8px;
+}
+
+li{
+    display: flex;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(170, 170, 170, 0.2);
 }
 
 h1{
     font-size: 1.3em;
     font-weight: 3px;
+    /*border: 1px solid white;*/
+    padding: 8px;
+}
+
+input[type=radio]{
+    visibility: hidden;
+}
+
+
+li:hover label, li:hover .check{
+    color: #fff;
+    transition: border .25s linear;
+}
+
+li:hover .check{
+    border-color: #fff;
+}
+.check{
+    width: 13px;
+    height: 13px;
+    border: 3px solid #aaa;
+    border-radius: 100%;
 }
