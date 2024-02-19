@@ -30,8 +30,31 @@ h1{
     padding: 8px;
 }
 
+.check{
+    width: 13px;
+    height: 13px;
+    border: 3px solid #aaa;
+    border-radius: 100%;
+}
+
+.check::before{
+    transition: background 0.25s linear;
+}
+
 input[type=radio]{
     visibility: hidden;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0DFF92;
 }
 
 li:hover{
@@ -42,10 +65,4 @@ li:hover{
 li:hover .check{
     border-color: #fff;
     transition: border .25s linear;
-}
-.check{
-    width: 13px;
-    height: 13px;
-    border: 3px solid #aaa;
-    border-radius: 100%;
 }
