@@ -34,14 +34,14 @@ input[type=radio]{
     visibility: hidden;
 }
 
-
-li:hover label, li:hover .check{
+li:hover{
     color: #fff;
-    transition: border .25s linear;
+    transition: .25s linear;
 }
 
 li:hover .check{
     border-color: #fff;
+    transition: border .25s linear;
 }
 .check{
     width: 13px;
