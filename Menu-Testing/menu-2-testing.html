@@ -10,11 +10,17 @@
     <nav class="barra-navegacion">
         <ul class="flex list">
             <li>
-                <a href="drop-down-1" class="menu-item">Texto 1</a>
-                <img src="./Imagenes/chevron-down-solid.svg" alt="" class="drop-down-icon">
+                <a href="#drop-down-1" class="menu-item">
+                    <figure class="flex">
+                        <figcaption>
+                            Texto 1
+                        </figcaption>
+                        <img src="./Imagenes/chevron-down-solid.svg" alt="" class="drop-down-icon">
+                    </figure>
+                </a>
             </li>
             <li>
-                <a href="drop-down-2" class="menu-item">Texto 2</a>
+                <a href="#drop-down-2" class="menu-item">Texto 2</a>
                 <img src="./Imagenes/chevron-down-solid.svg" alt="" class="drop-down-icon">
             </li>
             <li>
@@ -38,13 +44,13 @@
                 <img src="./Imagenes/chevron-down-solid.svg" alt="" class="drop-down-icon">
             </li>
         </ul>
-
-        <ul class="drop-down-1">
+    </nav>
+        <ul id="drop-down-1">
             <li>Opcion A</li>
             <li>Opcion B</li>
             <li>Opcion C</li>
         </ul>
-        <ul class="drop-down-2">
+        <ul id="drop-down-2">
             <li>Opcion A</li>
             <li>Opcion B</li>
             <li>Opcion C</li>
@@ -74,6 +80,5 @@
             <li>Opcion B</li>
             <li>Opcion C</li>
         </ul>
-    </nav>
 </body>
 </html>
