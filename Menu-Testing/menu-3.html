@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drop-Down-Menu</title>
+    <link rel="stylesheet" href="./css/menu-3.css">
 </head>
 <body>
     <nav class="barra-navegacion">
-        <ul id="list">
-            <li class="opcion"><a href="" class="link">Opcion 1</a></li>
-            <li class="opcion"><a href="" class="link">Opcion 2</a></li>
-            <li class="opcion"><a href="" class="link">Opcion 3</a></li>
-        </ul>
-        <ul id="sub-list-1">
-            <li class="sub-opcion"><p>Sub A</p></li>
-            <li class="sub-opcion"><p>Sub B</p></li>
-        </ul>
-        <ul id="sub-list-2">
-            <li class="sub-opcion"><p>Sub A</p></li>
-        </ul>
-        <ul id="sub-list-3">
-            <li class="sub-opcion"><p>Sub A</p></li>
-            <li class="sub-opcion"><p>Sub B</p></li>
-            <li class="sub-opcion"><p>Sub C</p></li>
-        </ul>
+            <ul id="list">
+                <a href="#sub-list-1" class="link" id="opcion-1"><li><p>Opcion 1</p></li></a>
+                <a href="#sub-list-2" class="link" id="opcion-2"><li><p>Opcion 2</p></li></a>
+                <a href="#sub-list-3" class="link" id="opcion-3"><li><p>Opcion 3</p></li></a>
+                <a href="#" class="link" id="opcion-x"><li><p>X</p></li></a>
+            </ul>
+            <ul class="sub-list" id="sub-list-1">
+                <li class="sub-opcion"><p>Sub A</p></li>
+                <li class="sub-opcion"><p>Sub B</p></li>
+            </ul>
+            <ul class="sub-list" id="sub-list-2">
+                <li class="sub-opcion"><p>Sub A</p></li>
+            </ul>
+            <ul class="sub-list" id="sub-list-3">
+                <li class="sub-opcion"><p>Sub A</p></li>
+                <li class="sub-opcion"><p>Sub B</p></li>
+                <li class="sub-opcion"><p>Sub C</p></li>
+            </ul>
     </nav>
 </body>
 </html>

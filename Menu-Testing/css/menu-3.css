@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #ccc;
+    display: grid;
+    grid-template-areas: 'opciones opciones opciones opciones'
+                         'sub-1a sub-2a sub-3a auto';
+}
+
+#list{
+    grid-area: opciones;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 'opcion-1 opcion-2 opcion-3 opcion-x';
+}
+
+#sub-list-1{
+    grid-area: sub-1a;
+}
+
+#sub-list-2{
+    grid-area: sub-2a;
+}
+
+#sub-list-3{
+    grid-area: sub-3a;
+}
+
+#opcion-1{
+    grid-area: opcion-1;
+}
+
+#opcion-2{
+    grid-area: opcion-2;
+}
+
+#opcion-3{
+    grid-area: opcion-3;
+}
+
+#opcion-x{
+    grid-area: opcion-x;
+}
+
+.link{
+    border: 1px solid;
+}
+
+ul{
+    list-style: none;
+    border: 1px solid  black;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: inherit;
+}
