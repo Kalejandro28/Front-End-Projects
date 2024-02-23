@@ -8,24 +8,29 @@
 </head>
 <body>
     <nav class="barra-navegacion">
-            <ul id="list">
-                <a href="#sub-list-1" class="link" id="opcion-1"><li><p>Opcion 1</p></li></a>
-                <a href="#sub-list-2" class="link" id="opcion-2"><li><p>Opcion 2</p></li></a>
-                <a href="#sub-list-3" class="link" id="opcion-3"><li><p>Opcion 3</p></li></a>
+            <ul id="list" class="flex">
+                <a href="#sub-list-1" class="link" id="opcion-1"><li>Opcion 1</li></a>
+                <a href="#sub-list-2" class="link" id="opcion-2"><li>Opcion 2</li></a>
+                <a href="#sub-list-3" class="link" id="opcion-3"><li>Opcion 3</li></a>
                 <a href="#" class="link" id="opcion-x"><li><p>X</p></li></a>
             </ul>
-            <ul class="sub-list" id="sub-list-1">
-                <li class="sub-opcion"><p>Sub A</p></li>
-                <li class="sub-opcion"><p>Sub B</p></li>
-            </ul>
-            <ul class="sub-list" id="sub-list-2">
-                <li class="sub-opcion"><p>Sub A</p></li>
-            </ul>
-            <ul class="sub-list" id="sub-list-3">
-                <li class="sub-opcion"><p>Sub A</p></li>
-                <li class="sub-opcion"><p>Sub B</p></li>
-                <li class="sub-opcion"><p>Sub C</p></li>
-            </ul>
+            <div class="sub-menus flex">
+                <ul class="sub-list flex" id="sub-list-1">
+                    <li class="sub-opcion"><p>Sub A</p></li>
+                    <li class="sub-opcion"><p>Sub B</p></li>
+                </ul>
+                <ul class="sub-list flex" id="sub-list-2">
+                    <li class="sub-opcion"><p>Sub A</p></li>
+                </ul>
+                <ul class="sub-list flex" id="sub-list-3">
+                    <li class="sub-opcion"><p>Sub A</p></li>
+                    <li class="sub-opcion"><p>Sub B</p></li>
+                    <li class="sub-opcion"><p>Sub C</p></li>
+                </ul>
+                <ul class="sub-list flex" id="sub-list-4">
+                    <!-- Lista vacia-->
+                </ul>
+            </div>
     </nav>
 </body>
 </html>
