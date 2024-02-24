@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    min-width: 400px;
+}
+
 #list{
     background-color: lightsteelblue;
 }
