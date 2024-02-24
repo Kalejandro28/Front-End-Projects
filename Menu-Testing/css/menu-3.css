@@ -21,7 +21,7 @@
     transform: translateY(-100%);
     flex-direction: column;
     flex-grow: 1;
-    justify-content: space-evenly;
+    height: min-content;
     transition: 0.3s ease-in-out;
 }
 
@@ -34,9 +34,6 @@
     display: flex;
 }
 
-.sub-menus{
-    justify-content: space-around;
-}
 
 .link{
     padding: 8px 0;
