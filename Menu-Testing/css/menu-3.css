@@ -17,11 +17,11 @@ body{
 }
 
 #sub-list-2{
-    left: 25%;
+    left: 32%;
 }
 
 #sub-list-3{
-    left: 50%;
+    left: 64%;
 }
 
 
@@ -29,7 +29,19 @@ body{
     border: 1px solid rgb(24, 43, 70);
     border-top: none;
     position: absolute;
-    width: 25%;
+    width: 32%;
+    z-index: -1;
+    transform: translateY(-100%);
+    flex-direction: column;
+    height: min-content;
+    transition: 0.3s ease-in-out;
+}
+
+.sub-list-x{
+    border: 1px solid rgb(24, 43, 70);
+    border-top: none;
+    position: absolute;
+    width: 4%;
     z-index: -1;
     transform: translateY(-100%);
     flex-direction: column;
@@ -49,9 +61,17 @@ body{
 
 .link{
     padding: 8px 0;
-    width: 25%;
+    width: 32%;
     text-align: center;
     border: 1PX solid;
+}
+
+.link-x{
+    padding: 8px 0;
+    width: 4%;
+    text-align: center;
+    border: 1PX solid;
+    background-color: rgb(120, 139, 163);
 }
 
 #sub-list-1:target, #sub-list-2:target, #sub-list-3:target{
