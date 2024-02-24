@@ -17,10 +17,10 @@
     border: 1px solid rgb(24, 43, 70);
     border-top: none;
     position: relative;
+    width: 25%;
     z-index: -1;
     transform: translateY(-100%);
     flex-direction: column;
-    flex-grow: 1;
     height: min-content;
     transition: 0.3s ease-in-out;
 }
@@ -37,7 +37,7 @@
 
 .link{
     padding: 8px 0;
-    flex-grow: 1;
+    width: 25%;
     text-align: center;
     border: 1PX solid;
 }
